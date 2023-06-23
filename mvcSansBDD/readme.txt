@@ -1,0 +1,14 @@
+- index.php
+- router.php
+- controller/
+    - HomeController.php
+    - LoginController.php
+    - RegisterController.php
+    - DashboardController.php
+- view/
+    - home.php
+    - login.php
+    - register.php
+    - dashboard.php
+- assets/
+    - bootstrap.min.css

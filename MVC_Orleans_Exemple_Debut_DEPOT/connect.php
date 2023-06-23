@@ -1,0 +1,13 @@
+<?php
+/////////////////////////////////////
+//   Constantes pour se connecter  //
+//   à la base de données          //
+/////////////////////////////////////
+define("SGBD_SERVER", "127.0.0.1");
+define("SGBD_PORT", "3306");
+define("SGBD_BDD", "SDBM_V2");
+define("SGBD_USER", "root");
+define("SGBD_PSWD", "");
+
+
+define("SGBD_CHAINE_CONNEXION", "mysql:host=".SGBD_SERVER."; port=".SGBD_PORT."; dbname=".SGBD_BDD.";charset=utf8");
